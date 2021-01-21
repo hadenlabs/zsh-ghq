@@ -1,5 +1,5 @@
 #
-# See ./CONTRIBUTING.rst
+# See ./docs/contributing.md
 #
 
 OS := $(shell uname)
@@ -36,7 +36,7 @@ MESSAGE:=🍺️
 MESSAGE_HAPPY:="Done! ${MESSAGE}, Now Happy Hacking"
 SOURCE_DIR=$(ROOT_DIR)/
 PROVISION_DIR:=$(ROOT_DIR)/provision
-FILE_README:=$(ROOT_DIR)/README.rst
+FILE_README:=$(ROOT_DIR)/README.md
 
 PATH_DOCKER_COMPOSE:=docker-compose.yml -f provision/docker-compose
 
