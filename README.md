@@ -2,9 +2,7 @@
 
 Functions and tools ghq with zsh
 
-[![Build Status](https://travis-ci.org/hadenlabs/zsh-ghq.svg)](https://travis-ci.org/hadenlabs/zsh-ghq)
-[![GitHub Issues](https://img.shields.io/github/issues/hadenlabs/zsh-ghq.svg)](https://github.com/hadenlabs/zsh-ghq/issues)
-[![GitHub License](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](LICENSE)
+[![Build Status](https://travis-ci.org/hadenlabs/zsh-ghq.svg)](https://travis-ci.org/hadenlabs/zsh-ghq) [![GitHub Issues](https://img.shields.io/github/issues/hadenlabs/zsh-ghq.svg)](https://github.com/hadenlabs/zsh-ghq/issues) [![GitHub License](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](LICENSE)
 
 ## Features
 
