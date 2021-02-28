@@ -14,6 +14,7 @@ function ghq::pkg::main::factory {
         source "${ZSH_GHQ_PATH}"/pkg/linux.zsh
       ;;
     esac
+
     # shellcheck source=/dev/null
     source "${ZSH_GHQ_PATH}"/pkg/helper.zsh
 
