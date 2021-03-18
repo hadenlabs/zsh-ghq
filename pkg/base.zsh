@@ -15,7 +15,7 @@ function ghq::install {
 }
 
 function ghq::post_install {
-    if type -p git > /dev/null; then
+    if core::exists git; then
         git config --global ghq.root "${PROJECTS}"
     fi
 }
@@ -93,7 +93,7 @@ function ghq::factory {
 }
 
 function ghq::find::project {
-    if type -p fzf > /dev/null; then
+    if core::exists fzf; then
         local buffer
         buffer=$(ghq::projects::list | fzf )
         if [ -n "${buffer}" ]; then

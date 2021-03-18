@@ -18,6 +18,6 @@ function ghq::internal::main::factory {
 
 ghq::internal::main::factory
 
-if ! type -p rsync > /dev/null; then ghq::internal::rync::install; fi
-if ! type -p cookiecutter > /dev/null; then ghq::internal::cookiecutter::install; fi
-if ! type -p ghq > /dev/null; then ghq::internal::ghq::install; fi
+if ! core::exists rsync > /dev/null; then core:install rsync; fi
+if ! core::exists ghq > /dev/null; then core:install ghq; fi
+if ! core::exists cookiecutter; then ghq::internal::cookiecutter::install; fi
