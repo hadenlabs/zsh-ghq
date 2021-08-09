@@ -10,48 +10,43 @@ name: zsh-ghq
 email:
   support: support@hadenlabs.com
 
+confluence:
+  space: BASE-TEMPLATE
+  title: readme
+
 # Logo for this project
 #logo: docs/logo.png
 
 # License of this project
-license: 'MIT'
+license: 'LGPL-3.0'
 
 # Canonical GitHub repo
 github_repo: hadenlabs/zsh-ghq
 
 # Badges to display
 badges:
-  - name: Lint
-    image: https://github.com/hadenlabs/zsh-ghq/actions/workflows/lint.yml/badge.svg?branch=develop
-    url: https://github.com/hadenlabs/zsh-ghq/actions
-  - name: Issues
-    image: https://img.shields.io/github/issues/hadenlabs/zsh-ghq.svg
-    url: https://github.com/hadenlabs/zsh-ghq/issues
   - name: Latest Release
-    image: https://img.shields.io/github/release/hadenlabs/zsh-ghq.svg
+    image: https://img.shields.io/github/release/hadenlabs/zsh-ghq
     url: https://github.com/hadenlabs/zsh-ghq/releases
+  - name: Lint
+    image: https://img.shields.io/github/workflow/status/hadenlabs/zsh-ghq/lint-code
+    url: https://github.com/hadenlabs/zsh-ghq/actions?workflow=lint-code
+  - name: pre-commit
+    image: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white
+    url: https://github.com/pre-commit/pre-commit
+  - name: Conventional Commits
+    image: https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow
+    url: https://conventionalcommits.org
+  - name: KeepAChangelog
+    image: https://img.shields.io/badge/Keep%20A%20Changelog-1.0.0-%23E05735
+    url: https://keepachangelog.com
 
-# Short description of this project
 description: |-
-  zsh-ghq plugin for zsh.
 
-requirements: |-
+  zsh-ghq for project
 
-  This is a list of plugins that need to be installed previously to enjoy all the goodies of this configuration:
+  ### Replace name project to New Project
 
-  ```{.sourceCode .bash}
-  https://github.com/luismayta/zsh-core
-  https://github.com/luismayta/zsh-notify
-  https://github.com/luismayta/zsh-functions
-  ```
-
-installation:
-  - 'docs/include/installation/oh-my-zsh.md'
-  - 'docs/include/installation/antigen.md'
-  - 'docs/include/installation/antibody.md'
-
-# How to use this project
-usage: |-
   ```bash
-  make setup
+    agr 'zsh-ghq' 'new-project'
   ```
